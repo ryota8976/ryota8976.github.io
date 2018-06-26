@@ -1,3 +1,39 @@
 li {
  float: left;
+ width: 200px;
+ list-style-type: none;
 }
+
+ul{
+  width: 1000px;
+  overflow: hidden;
+}
+
+a{
+display: block;
+padding: 20px 0;
+text-align: center;
+font-weight: bold;
+text-decoration: none;
+background-color: #f57;
+color: #fff;
+}
+
+a:hover{
+  background-color: #f7a;
+}
+
+img{
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+}
+
+/* .trim-image-to-circle{
+  background-image: url("myphoto.jpg");
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-position: center center;
+  display: inline-block;
+} */
